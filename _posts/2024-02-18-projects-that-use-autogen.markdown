@@ -5,11 +5,6 @@ date: 2024-02-18
 categories: AI releases
 ---
 
-### AutoGen AGI
-- **Developer:** [GitHub Username]
-- **URL:** [AutoGen AGI](https://github.com/[username]/AutoGenAGI)
-- **Description:** This project aims at advancing AI agents towards AGI capabilities using AutoGen, focusing on group chat dynamics, decision-making, and complex task proficiency.
-
 ### Promptulate
 - **Developer:** Undertone0809
 - **URL:** [Promptulate](https://github.com/Undertone0809/promptulate)

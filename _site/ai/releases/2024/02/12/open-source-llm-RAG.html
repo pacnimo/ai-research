@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Open Source LLM (RAG Retrieval Augmented Generation) | AI Research</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Open Source LLM (RAG Retrieval Augmented Generation)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of generative models, such as Large Language Models (LLMs), by integrating them with a retrieval component. This approach allows the model to dynamically access and incorporate external knowledge sources into its responses. By querying a vast database or corpus of documents in real-time, RAG models can pull in relevant information, facts, or data that were not part of their initial training data. This process significantly improves the model’s ability to provide accurate, informative, and contextually rich answers to a wide variety of queries, making it especially useful for applications requiring up-to-date information or deep domain knowledge." />
+<meta property="og:description" content="Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of generative models, such as Large Language Models (LLMs), by integrating them with a retrieval component. This approach allows the model to dynamically access and incorporate external knowledge sources into its responses. By querying a vast database or corpus of documents in real-time, RAG models can pull in relevant information, facts, or data that were not part of their initial training data. This process significantly improves the model’s ability to provide accurate, informative, and contextually rich answers to a wide variety of queries, making it especially useful for applications requiring up-to-date information or deep domain knowledge." />
+<link rel="canonical" href="http://localhost:4000/ai/releases/2024/02/12/open-source-llm-RAG.html" />
+<meta property="og:url" content="http://localhost:4000/ai/releases/2024/02/12/open-source-llm-RAG.html" />
+<meta property="og:site_name" content="AI Research" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-02-12T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Open Source LLM (RAG Retrieval Augmented Generation)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-12T00:00:00+01:00","datePublished":"2024-02-12T00:00:00+01:00","description":"Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of generative models, such as Large Language Models (LLMs), by integrating them with a retrieval component. This approach allows the model to dynamically access and incorporate external knowledge sources into its responses. By querying a vast database or corpus of documents in real-time, RAG models can pull in relevant information, facts, or data that were not part of their initial training data. This process significantly improves the model’s ability to provide accurate, informative, and contextually rich answers to a wide variety of queries, making it especially useful for applications requiring up-to-date information or deep domain knowledge.","headline":"Open Source LLM (RAG Retrieval Augmented Generation)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ai/releases/2024/02/12/open-source-llm-RAG.html"},"url":"http://localhost:4000/ai/releases/2024/02/12/open-source-llm-RAG.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="AI Research" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">AI Research</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About AI Research</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Open Source LLM (RAG Retrieval Augmented Generation)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-02-12T00:00:00+01:00" itemprop="datePublished">Feb 12, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of generative models, such as Large Language Models (LLMs), by integrating them with a retrieval component. This approach allows the model to dynamically access and incorporate external knowledge sources into its responses. By querying a vast database or corpus of documents in real-time, RAG models can pull in relevant information, facts, or data that were not part of their initial training data. This process significantly improves the model’s ability to provide accurate, informative, and contextually rich answers to a wide variety of queries, making it especially useful for applications requiring up-to-date information or deep domain knowledge.</p>
+
+<h1 id="project-name-nemo-guardrails">PROJECT NAME: NeMo Guardrails</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/NVIDIA/NeMo-Guardrails">https://github.com/NVIDIA/NeMo-Guardrails</a></p>
+
+<p>NeMo Guardrails is an open-source toolkit designed by NVIDIA for adding programmable guardrails to large language model (LLM)-based conversational systems. It enables developers to implement safety, security, and trustworthiness into conversational AI by defining rules that guide user interactions within applications. The toolkit supports a wide range of guardrails, including topical, safety, and security, to ensure LLM applications remain within desired domains and adhere to company policies​​​.</p>
+
+<h1 id="project-name-phoenix">PROJECT NAME: Phoenix</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/phoenix">https://github.com/phoenix</a></p>
+
+<p>Unable to provide a description due to the URL leading to a GitHub user profile rather than a specific project repository. The provided URL does not direct to a project named Phoenix that can be described for this report.</p>
+
+<h1 id="project-name-chainlit">PROJECT NAME: Chainlit</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://docs.chainlit.io">https://docs.chainlit.io</a></p>
+
+<p>Chainlit is an innovative project that aims to simplify the process of integrating blockchain technologies into various applications. Through its comprehensive documentation and tools, Chainlit provides developers with resources to create decentralized applications (dApps), smart contracts, and blockchain integrations, facilitating a smoother and more accessible entry into the blockchain space.</p>
+
+<h1 id="project-name-llamaindex--ray">PROJECT NAME: LlamaIndex + Ray</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://www.anyscale.com">https://www.anyscale.com</a></p>
+
+<p>LlamaIndex + Ray represents a combination of technologies aimed at enhancing machine learning and AI research. While Ray is an open-source project that provides a simple, universal API for building distributed applications, LlamaIndex’s specifics are less clear without direct documentation or a project page. Anyscale, the company behind Ray, specializes in scaling AI applications, suggesting that LlamaIndex might be related to indexing or managing data for AI workloads within the Ray ecosystem.</p>
+
+<h1 id="project-name-poe">PROJECT NAME: Poe</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/poe">https://github.com/poe</a></p>
+
+<p>Unable to provide a description due to the URL leading to a GitHub user profile rather than a specific project repository. The provided URL does not direct to a project named Poe that can be described for this report.</p>
+
+<h1 id="project-name-rags">PROJECT NAME: rags</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/run-llama/rags">https://github.com/run-llama/rags</a></p>
+
+<p>The rags project is hosted on GitHub but lacks direct information accessible from the provided URL. Without specific details about the project’s purpose, objectives, or functionality, it’s challenging to offer a concise description. It appears to be related to the run-llama organization, which might suggest a focus on AI or machine learning, yet further details would be necessary for a complete understanding.</p>
+
+<h1 id="project-name-rag-and-generative-ai---azure-ai-search">PROJECT NAME: RAG and generative AI - Azure AI Search</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://learn.microsoft.com">https://learn.microsoft.com</a></p>
+
+<p>This project integrates Retrieval-Augmented Generation with Azure AI’s search capabilities, aiming to enhance generative AI applications by leveraging a combination of retrieved information and generative models for improved answers and content generation.</p>
+
+<h1 id="project-name-deploying-open-source-llms-for-rag-with-sagemaker">PROJECT NAME: Deploying Open Source LLMs for RAG with SageMaker</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://www.pinecone.io">https://www.pinecone.io</a></p>
+
+<p>Focuses on the deployment of open-source Large Language Models (LLMs) specifically tailored for RAG applications using AWS SageMaker. It provides a pathway for integrating retrieval-augmented models into scalable cloud environments.</p>
+
+<h1 id="project-name-retrieval-augmented-generation-rag">PROJECT NAME: Retrieval-Augmented Generation (RAG)</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://bea.stollnitz.com">https://bea.stollnitz.com</a></p>
+
+<p>Dedicated to exploring the principles and applications of RAG, this project details the methodology behind augmenting generative AI with retrieved information to enhance the quality and relevance of generated content across various AI tasks.</p>
+
+<h1 id="project-name-rag-demystified">PROJECT NAME: rag-demystified</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/pchunduri6/rag-demystified">https://github.com/pchunduri6/rag-demystified</a></p>
+
+<p>The project “rag-demystified” introduces an LLM-powered advanced Retrieval-Augmented Generation (RAG) pipeline constructed from the ground up. It focuses on demystifying the sophisticated operations of RAG pipelines, which play a crucial role in building question-answering systems. By leveraging large language models (LLMs) and a series of carefully crafted prompt templates, it aims to perform complex tasks efficiently. This initiative also highlights the challenges encountered, such as question sensitivity and variable costs, providing insights into developing robust and efficient systems​​​​​​.</p>
+
+<h1 id="project-name-evaluate-rag-with-llamaindex">PROJECT NAME: Evaluate RAG with LlamaIndex</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://cookbook.openai.com">https://cookbook.openai.com</a></p>
+
+<p>The “Evaluate RAG with LlamaIndex” project appears to be related to evaluating Retrieval-Augmented Generation systems, potentially using LlamaIndex, a tool or methodology for enhancing the efficiency and accuracy of question-answering systems. However, specific details about this project were not available through the provided URL, which leads to OpenAI’s Cookbook, a general resource for various AI techniques and implementations. For more targeted information on evaluating RAG systems with LlamaIndex, it might be beneficial to explore OpenAI’s Cookbook further or search for dedicated resources on this topic.</p>
+
+<h1 id="project-name-ragna">PROJECT NAME: Ragna</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://ragna.chat">https://ragna.chat</a></p>
+
+<p>Ragna is an open-source RAG orchestration framework developed by Quansight, designed for experimenting with Large Language Models. It allows for quick experimentation and building production-ready applications using an intuitive API and built-in tools. Ragna supports integration with OpenAI, MosaicML, Anthropic, and local LLMs, alongside vector databases like Chroma and LanceDB​​​.</p>
+
+<h1 id="project-name-verba">PROJECT NAME: Verba</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/weaviate/Verba">https://github.com/weaviate/Verba</a></p>
+
+<p>Verba, dubbed “The Golden RAGtriever,” is an open-source application focused on Retrieval-Augmented Generation. It provides a streamlined, end-to-end user interface for exploring datasets and extracting insights with ease. Verba supports deployment via pip, Docker, and building from source, requiring Python 3.9.0 or later. It emphasizes ease of use with multiple deployment options and is designed to integrate with LLM providers like OpenAI and Cohere​.</p>
+
+<h1 id="project-name-rag-chatbot-with-llm-expertise">PROJECT NAME: RAG-Chatbot-with-LLM-Expertise</h1>
+<p><strong>PROJECT DIRECT URL:</strong> <a href="https://github.com/JetXu-LLM/RAG-Chatbot-with-LLM-Expertise">https://github.com/JetXu-LLM/RAG-Chatbot-with-LLM-Expertise</a></p>
+
+<p>This project introduces a sophisticated chatbot that leverages RAG technology and LLM capabilities to handle inquiries and programming tasks related to AI/ML. The chatbot utilizes LangChain, LlamaIndex, and a vector database like Milvus, aiming to provide informed dialogues and generate programming solutions within the AI domain. It’s built to integrate AI agents that can interact with data sources and services, enhancing its ability to provide dynamic responses​.</p>
+
+
+  </div><a class="u-url" href="/ai/releases/2024/02/12/open-source-llm-RAG.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">AI Research</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">AI Research</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

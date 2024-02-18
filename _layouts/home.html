@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<style>
+  #searchBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+</style>
+
+
+<input type="text" id="searchBox" placeholder="Search for posts..." onkeyup="filterPosts()">
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+<script>
+  function filterPosts() {
+    var input = document.getElementById('searchBox');
+    var filter = input.value.toUpperCase().split(' '); // Split search query into words
+    var postsContainer = document.querySelector('.posts');
+    var posts = postsContainer.getElementsByClassName('post');
+    var title, content, i, txtValueTitle, txtValueContent, allWordsFound;
+
+    for (i = 0; i < posts.length; i++) {
+      title = posts[i].querySelector("h2 a").textContent || posts[i].querySelector("h2 a").innerText;
+      content = posts[i].querySelector(".entry").textContent || posts[i].querySelector(".entry").innerText;
+      txtValueTitle = title.toUpperCase();
+      txtValueContent = content.toUpperCase();
+      allWordsFound = filter.every(function(word) { // Check if every word is found
+        return txtValueTitle.includes(word) || txtValueContent.includes(word);
+      });
+
+      if (allWordsFound) {
+        posts[i].style.display = "";
+      } else {
+        posts[i].style.display = "none";
+      }
+    }
+  }
+</script>
+
+

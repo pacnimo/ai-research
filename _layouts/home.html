@@ -19,7 +19,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="https://pacnimo.github.io/ai-research/{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.date | date: "%b %-d, %Y" }}</p>
       <div class="entry">
         {{ post.excerpt }}
@@ -53,5 +53,4 @@ layout: default
     }
   }
 </script>
-
 

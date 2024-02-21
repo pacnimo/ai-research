@@ -5,6 +5,13 @@ date: 2024-02-20
 categories: AI releases
 ---
 
+
+### Baichuan-13B
+
+- **PROJECT DIRECT URL:** [https://github.com/baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)
+- **DESCRIPTION:** Baichuan-13B is a large language model with 13 billion parameters, developed by Baichuan Intelligent Technology. It's optimized for both Chinese and English processing, following the Transformer architecture, and aimed at providing a robust tool for a wide range of NLP tasks. This model emphasizes accessibility and commercial application, making significant strides in AI and machine learning, especially for applications requiring bilingual capabilities​​​​​.
+
+
 ## OpenLLMs
 
 - **PROJECT DIRECT URL:** [https://github.com/eugeneyan/open-llms](https://github.com/eugeneyan/open-llms)
@@ -20,10 +27,6 @@ categories: AI releases
 - **PROJECT DIRECT URL:** [https://openlamm.github.io/](https://openlamm.github.io/)
 - **DESCRIPTION:** LAMM, pronounced as /læm/ and symbolizing a cute lamb, is at the forefront of multi-modal large language models (MLLMs) and applications. It represents a growing open-source community dedicated to enabling researchers and developers to train, evaluate, and build multi-modal AI agents. LAMM focuses on bridging the gap between ideas and execution, fostering seamless interaction between humans and AI machines through the development of datasets, frameworks, benchmarks, optimizations, and applications for MLLMs.
 
-## Baichuan-13B
-
-- **PROJECT DIRECT URL:** [https://github.com/baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)
-- **DESCRIPTION:** Baichuan-13B is a large language model with 13 billion parameters, developed by Baichuan Intelligent Technology. It's optimized for both Chinese and English processing, following the Transformer architecture, and aimed at providing a robust tool for a wide range of NLP tasks. This model emphasizes accessibility and commercial application, making significant strides in AI and machine learning, especially for applications requiring bilingual capabilities​​​​​.
 
 ## Platypus 2
 
@@ -40,7 +43,6 @@ categories: AI releases
 
 - **PROJECT DIRECT URL:** [https://github.com/AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
 - **DESCRIPTION:** FinGPT is an open-source financial large language model aimed at advancing financial research, cooperation, and innovation. For detailed information and access to the project, please visit the official GitHub page of FinGPT or search for it on Arxiv for the associated research paper​.
-
 
 
 

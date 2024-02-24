@@ -7,7 +7,7 @@ categories: AI releases
 
 
 ## YugoGPT
-- **PROJECT DIRECT URL:** [Multiplatform AI](https://multiplatform.ai/yugogpt-transforming-ai-for-south-slavic-languages) | [Cryptopolitan](https://www.cryptopolitan.com/aleksa-gordic-launches-yugogpt-the-premier-chatgpt-clone-for-south-slavic-languages)
+- **PROJECT DIRECT URL:** [Multiplatform AI](https://github.com/gordicaleksa/serbian-llm-eval) | [YugoChat](https://www.yugochat.com/en)
 - **DESCRIPTION:** A groundbreaking model tailored specifically for Serbian, Bosnian, Croatian, and Montenegrin languages, YugoGPT outperforms existing models in understanding and generating text in these specific linguistic contexts. Developed to address the limitations and lack of contextual relevance faced by non-English speaking regions in AI applications, YugoGPT provides precise, localized AI responses, marking a significant advancement in multilingual AI technology.
 
 
